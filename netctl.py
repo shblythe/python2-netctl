@@ -28,7 +28,8 @@ class Netctl:
     @classmethod
     def get_active_connections(cls):
         """Return a list of active, i.e. running, connections."""
-        return cls.get_matching_connections(r'^\*')
+        return [l[2:] for l in cls._get_raw_netctl_connections() \
+                        for m in [re.search(r'^\*',l)] if m]
     
     @classmethod
     def get_all_connections(cls):
