@@ -1,5 +1,5 @@
 #!/usr/bin/python2
-# vim: set et sts=4:
+# vim: set et sts=4 sw=4:
 """
 This python module provides a trivial interface to the systemd netctl
 network control script, which allows listing, starting and stopping
