@@ -6,7 +6,7 @@ setup(	name='netctl',
         author='Stephen Blythe',
         author_email='stephen@urwick.co.uk',
         url='https://github.com/shblythe/python2-netctl',
-        version='0.1.0',
+        version='0.2.0',
         py_modules=['netctl'],
         license='GPL v3',
         )
