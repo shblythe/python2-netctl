@@ -1,8 +1,0 @@
-mkdir python2-netctl
-pushd python2-netctl
-pip2arch -p python2 -n python2-netctl netctl 
-mkaurball
-mv python2-netctl-*.tar.gz ..
-popd
-rm -rf python2-netctl
-
